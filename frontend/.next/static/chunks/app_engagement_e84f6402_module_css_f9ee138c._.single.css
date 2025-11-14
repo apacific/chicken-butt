@@ -1,0 +1,29 @@
+/* [project]/app/engagement_e84f6402.module.css [app-client] (css) */
+@font-face {
+  font-family: engagement;
+  src: url("../media/Pacifico_Regular-s.p.30c76a31.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: engagement Fallback;
+  src: local(Arial);
+  ascent-override: 141.17%;
+  descent-override: 49.08%;
+  line-gap-override: 0.0%;
+  size-adjust: 92.3%;
+}
+
+.engagement_e84f6402-module__Ftx4uW__className {
+  font-family: engagement, engagement Fallback;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.engagement_e84f6402-module__Ftx4uW__variable {
+  --font-engagement: "engagement", "engagement Fallback";
+}
+
+/*# sourceMappingURL=app_engagement_e84f6402_module_css_f9ee138c._.single.css.map*/

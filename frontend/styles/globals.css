@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+.font-chango { font-family: var(--font-chango), sans-serif; }
+.font-engagement { font-family: var(--font-engagement), cursive; }

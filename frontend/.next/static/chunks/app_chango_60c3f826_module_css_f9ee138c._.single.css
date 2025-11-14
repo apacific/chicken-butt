@@ -1,0 +1,29 @@
+/* [project]/app/chango_60c3f826.module.css [app-client] (css) */
+@font-face {
+  font-family: chango;
+  src: url("../media/Chango_Regular-s.p.65556b25.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: chango Fallback;
+  src: local(Arial);
+  ascent-override: 64.55%;
+  descent-override: 14.01%;
+  line-gap-override: 0.0%;
+  size-adjust: 154.15%;
+}
+
+.chango_60c3f826-module__o6u0NW__className {
+  font-family: chango, chango Fallback;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.chango_60c3f826-module__o6u0NW__variable {
+  --font-chango: "chango", "chango Fallback";
+}
+
+/*# sourceMappingURL=app_chango_60c3f826_module_css_f9ee138c._.single.css.map*/

@@ -1,0 +1,56 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: restaurant_db
+    environment:
+      POSTGRES_DB: restaurantdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d restaurantdb"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks: [appnet]
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: restaurant_backend
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/restaurantdb
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+      # Optional (dev): uncomment one of these if you want schema behavior managed by JPA
+      # SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      # SPRING_JPA_HIBERNATE_DDL_AUTO: create-drop
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    networks: [appnet]
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: restaurant_frontend
+    environment:
+      NEXT_PUBLIC_BASE_URL: http://localhost:3000
+      NEXT_PUBLIC_USE_BACKEND: "true"
+      BACKEND_ORIGIN: http://backend:8080
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+    networks: [appnet]
+
+volumes:
+  dbdata:
+
+networks:
+  appnet:

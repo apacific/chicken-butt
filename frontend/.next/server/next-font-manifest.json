@@ -1,0 +1,15 @@
+{
+  "app": {
+    "[project]/app/_not-found/page": [
+      "static/media/Chango_Regular-s.p.65556b25.ttf",
+      "static/media/Pacifico_Regular-s.p.30c76a31.ttf"
+    ],
+    "[project]/app/page": [
+      "static/media/Chango_Regular-s.p.65556b25.ttf",
+      "static/media/Pacifico_Regular-s.p.30c76a31.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
