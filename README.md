@@ -1,7 +1,7 @@
 # About
 Proof of concept for a restaurant management application to display food and beverage menus, enable customers to place and complete orders, and help manage inventory.
 
-<img src="https://github.com/apacific/chicken-butt/blob/main/CB_demo.gif?raw=true" />
+<img src="https://github.com/apacific/chicken-butt/blob/main/Chicken-Butt_demo.gif?raw=true" />
 
 This full-stack application consists of a frontend in next.js, a backend in java, and a database in postgres.
 
