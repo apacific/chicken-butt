@@ -1,6 +1,8 @@
 # About
 Proof of concept for a restaurant management application to display food and beverage menus, enable customers to place and complete orders, and help manage inventory.
 
+<img src="https://github.com/apacific/chicken-butt/blob/main/CB_demo.gif?raw=true" />
+
 This full-stack application consists of a frontend in next.js, a backend in java, and a database in postgres.
 
 # Setup
@@ -48,9 +50,9 @@ npm test -- --coverage           # Coverage report
 **Run backend tests**:
 ```bash
 cd backend
-mvn test                         # Run all tests
-mvn test -Dtest=MenuControllerTest  # Run specific test class
-mvn test -DskipTests=false      # Run with coverage
+mvn test                             # Run all tests
+mvn test -Dtest=MenuControllerTest   # Run specific test class
+mvn test -DskipTests=false           # Run with coverage
 ```
 
 ### End-to-End Tests (Cypress)
@@ -66,14 +68,14 @@ mvn test -DskipTests=false      # Run with coverage
 **Run e2e tests**:
 ```bash
 # Using docker-compose (recommended for full-stack testing):
-docker-compose up -d              # Start all services (db, backend, frontend)
-npm run test:e2e                 # Run Cypress tests (see below for npm scripts)
+docker-compose up -d                # Start all services (db, backend, frontend)
+npm run test:e2e                    # Run Cypress tests (see below for npm scripts)
 
 # Or locally with npm:
 cd frontend
-npm run dev                        # Terminal 1: Start frontend dev server
-npx cypress open                  # Terminal 2: Interactive Cypress UI
-npx cypress run                   # Terminal 2: Headless mode
+npm run dev                         # Terminal 1: Start frontend dev server
+npx cypress open                    # Terminal 2: Interactive Cypress UI
+npx cypress run                     # Terminal 2: Headless mode
 ```
 
 ## Testing Best Practices
