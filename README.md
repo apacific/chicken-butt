@@ -1,3 +1,4 @@
+<img src="https://github.com/apacific/chicken-butt/blob/main/Chicken-Butt_logo.png?raw=true" />
 # About
 Proof of concept for a restaurant management application to display food and beverage menus, enable customers to place and complete orders, and help manage inventory.
 
@@ -30,7 +31,7 @@ This project includes a comprehensive test suite covering **unit**, **integratio
 **Run frontend tests**:
 ```bash
 cd frontend
-npm test                           # Run all tests
+npm test                         # Run all tests
 npm test -- --watch              # Watch mode
 npm test -- --coverage           # Coverage report
 ```
