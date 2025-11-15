@@ -1,4 +1,5 @@
-<img src="https://github.com/apacific/chicken-butt/blob/main/Chicken-Butt_logo.png?raw=true" />
+<img src="https://github.com/apacific/chicken-butt/blob/main/Chicken-Butt_logo.png?raw=true" />  
+
 # About
 Proof of concept for a restaurant management application to display food and beverage menus, enable customers to place and complete orders, and help manage inventory.
 
