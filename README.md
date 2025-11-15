@@ -15,8 +15,12 @@ Proof of concept for a restaurant management application to display food and bev
 - user-friendly aesthetic
 
 # Setup
-* Clone this project.
-* Navigate to `localhost:3000` in your browser.
+- Clone this project.
+- Ensure your Docker engine is running via [Docker Desktop or Docker CLI](https://docs.docker.com/).
+- In a BASH or PowerShell terminal, navigate to the project root directory.
+- Run the following command:
+`docker compose up --build`
+- Navigate to `localhost:3000` in your browser.
 
 # Testing
 
