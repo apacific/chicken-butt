@@ -22,6 +22,14 @@ Proof of concept for a restaurant management application to display food and bev
 `docker compose up --build`
 - Navigate to `localhost:3000` in your browser.
 
+<img src="https://github.com/apacific/chicken-butt/blob/main/Docker-Compose-Build.png?raw=true" />
+
+
+<img src="https://github.com/apacific/chicken-butt/blob/main/Spring-Boot-Starting.png?raw=true" />
+
+
+<img src="https://github.com/apacific/chicken-butt/blob/main/Docker-Containers-Running.png?raw=true" />
+
 # Testing
 
 ## Test Architecture
