@@ -7,12 +7,12 @@ Proof of concept for a restaurant management application to display food and bev
 
 ## Features
 
-- next.js frontend
-- responsive design
-- java backend
-- postgres database
-- comprehensive automated testing
-- user-friendly aesthetic
+- Next.js frontend
+- Responsive design
+- Java backend
+- PostgreSQL database
+- Comprehensive automated testing
+- User-friendly aesthetic
 
 # Setup
 - Clone this project.
