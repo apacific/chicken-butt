@@ -11,7 +11,8 @@ Proof of concept for a restaurant management application to display food and bev
 - responsive design
 - java backend
 - postgres database
-- 
+- comprehensive automated testing
+- user-friendly aesthetic
 
 # Setup
 * Clone this project.
